@@ -22,8 +22,9 @@ dept_number VARCHAR FK >- departments.dept_number
 
 dept_manager
 -------
-dept_number VARCHAR FK >- departments.dept_number
 emp_number INT  FK >- employees.emp_number
+dept_number VARCHAR FK >- departments.dept_number
+
 
 
 
@@ -35,5 +36,5 @@ salary BIGINT
 
 titles
 -------
-emp_title VARCHAR 
+title VARCHAR 
 title_id VARCHAR  FK >- employees.title_id
